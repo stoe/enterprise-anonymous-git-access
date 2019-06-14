@@ -1,0 +1,36 @@
+{
+  "name": "@stoe/enterprise-anonymous-git-access",
+  "version": "0.0.1",
+  "private": true,
+  "keywords": [],
+  "author": {
+    "name": "Stefan Stölzle",
+    "email": "stefan@github.com",
+    "url": "https://github.com/stoe"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/stoe/enterprise-anonymous-git-access#readme",
+  "repository": "git@github.com:stoe/enterprise-anonymous-git-access.git",
+  "bugs": {
+    "url": "https://github.com/stoe/enterprise-anonymous-git-access/issues"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "github-lint",
+    "start": "./index.js"
+  },
+  "dependencies": {
+    "@octokit/plugin-enterprise-rest": "^3.6.1",
+    "@octokit/rest": "^16.28.1",
+    "chalk": "^2.4.2",
+    "meow": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-github": "^2.0.0"
+  }
+}
