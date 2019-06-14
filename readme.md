@@ -6,13 +6,17 @@
 1. Clone this repository
 2. `cd` into the repository folder
 3. Run `npm install`
-4. As a GHES site admin, generate a personal access token with the `repo` scope
+4. As a GHES site admin, generate a personal access token with `repo` scope
 
 
 ## Usage
 ```sh
 $ ./index <organization> <url> <token>
 ```
+
+- `organization`: Organization name to disable/enable public repository anonymous Git read access, e.g. `acme-inc`
+- `url`: GHES URL, e.g. github.acme.com
+- `token`: Personal access token with `repo` scope
 
 #### Options
 - `--disable`, `-d`
