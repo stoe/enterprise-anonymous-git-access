@@ -30,7 +30,7 @@
     "meow": "^5.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
+    "eslint": "^7.16.0",
     "eslint-plugin-github": "^2.0.0"
   }
 }
