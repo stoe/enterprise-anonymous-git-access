@@ -24,7 +24,7 @@
     "start": "./index.js"
   },
   "dependencies": {
-    "@octokit/plugin-enterprise-rest": "^3.6.1",
+    "@octokit/plugin-enterprise-rest": "^6.0.1",
     "@octokit/rest": "^16.28.1",
     "chalk": "^2.4.2",
     "meow": "^5.0.0"
