@@ -9,11 +9,7 @@
     "url": "https://github.com/stoe"
   },
   "license": "MIT",
-  "homepage": "https://github.com/stoe/enterprise-anonymous-git-access#readme",
-  "repository": "git@github.com:stoe/enterprise-anonymous-git-access.git",
-  "bugs": {
-    "url": "https://github.com/stoe/enterprise-anonymous-git-access/issues"
-  },
+  "repository": "github:stoe/enterprise-anonymous-git-access",
   "engines": {
     "node": ">=10",
     "npm": ">=6"
