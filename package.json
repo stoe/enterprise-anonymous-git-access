@@ -22,7 +22,7 @@
   "dependencies": {
     "@octokit/plugin-enterprise-rest": "^6.0.1",
     "@octokit/rest": "^18.0.14",
-    "chalk": "^2.4.2",
+    "chalk": "^4.1.1",
     "meow": "^9.0.0"
   },
   "devDependencies": {
