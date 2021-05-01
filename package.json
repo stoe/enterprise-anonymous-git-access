@@ -27,6 +27,6 @@
   },
   "devDependencies": {
     "eslint": "^7.18.0",
-    "eslint-plugin-github": "^2.0.0"
+    "eslint-plugin-github": "^4.1.3"
   }
 }
